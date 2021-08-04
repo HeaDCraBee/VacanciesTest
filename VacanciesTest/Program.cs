@@ -17,7 +17,7 @@ namespace VacanciesTest
             StartTest(s_department, s_language);
         }
 
-        //Для параметризации ожидаемого значения
+        //Метод для параметризации ожидаемого значения
         public static bool StartTest(int expectedValue, string department, params string[] languages)
         {
             s_expectedValue = expectedValue;
